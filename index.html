@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="pre-connect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Montserrat+Alternates:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
+    <script src="app.js"></script>
+    <title>Balloon Pop</title>
+</head>
+<body>
+
+    <header>
+        <div class="start-div">
+            <div class="start-text">
+                <p id="description">Pop all the balloons before your time runs out!</p>
+                <button id="start" type="button">Start Popping!</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="header-text">
+            <h1>Balloon Pop</h1>
+            <span>By Tiffany Fust created at&nbsp;<a href="https://junocollege.com/" target="_blank"> Juno College</a><span>
+        </div>
+        <div class="timer">
+            <p class="blink" id="timer">20</p>
+        </div>
+        <div class="balloon-container">
+            <div class="balloons">
+                <div class="row">
+                    <div class="balloon set1" id="1"></div>
+                    <div class="balloon set2" id="2"></div>
+                    <div class="balloon set3" id="3"></div>
+                    <div class="balloon set4" id="4"></div>
+                    <div class="balloon set1" id="5"></div>
+                    <div class="balloon set4" id="6"></div>
+                </div>
+                <div class="row">
+                    <div class="balloon set4" id="7"></div>
+                    <div class="balloon set1" id="8"></div>
+                    <div class="balloon set4" id="9"></div>
+                    <div class="balloon set3" id="10"></div>
+                    <div class="balloon set2" id="11"></div>
+                    <div class="balloon set3" id="12"></div>
+                </div>
+                <div class="row">
+                    <div class="balloon set2" id="13"></div>
+                    <div class="balloon set4" id="14"></div>
+                    <div class="balloon set1" id="15"></div>
+                    <div class="balloon set3" id="16"></div>
+                    <div class="balloon set4" id="17"></div>
+                    <div class="balloon set1" id="18"></div>
+                </div>
+                <div class="row">
+                    <div class="balloon set1" id="19"></div>
+                    <div class="balloon set3" id="20"></div>
+                    <div class="balloon set4" id="21"></div>
+                    <div class="balloon set2" id="22"></div>
+                    <div class="balloon set1" id="23"></div>
+                    <div class="balloon set3" id="24"></div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="end-div won">
+            <div class="end-text">
+                <h2>You WON!!!</h2>
+                <p class="popCount"></p>
+                <button class="reset" type="reset">Play Again</button>
+            </div>
+        </div>
+
+        <div class="end-div lost">
+            <div class="end-text">
+                <h2>You Lost :(</h2>
+                <p class="popCount"></p>
+                <button class="reset" type="reset">Try Again</button>
+            </div>
+        </div>
+
+    </main>
+
+    
+    
+</body>
+</html>
